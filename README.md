@@ -1,11 +1,13 @@
 
 > このページを開く [https://skytree-1.github.io/isprime/](https://skytree-1.github.io/isprime/)
 
-## 拡張機能として使用
+## 素数判定プログラムのチュートリアル
 
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
+このリポジトリは、MakeCode で **チュートリアル** として読み込むとチュートリアルが実行できます。
 
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
+
+* [チュートリアルを実行](https://makecode.microbit.org/#tutorial:github:SKYTREE-1/isprime/tutorial) チュートリアル
 * **新しいプロジェクト** をクリックしてください
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * **https://github.com/skytree-1/isprime** を検索してインポートします。
