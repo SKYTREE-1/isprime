@@ -8,7 +8,7 @@
 
 ## 素数をみつけよう @showdialog
 
-![Let's find prime numbers!](images/image01.png)
+![Let's find prime numbers!](/images/image01.png)
 
 
 
