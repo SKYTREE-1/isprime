@@ -218,7 +218,7 @@ input.onButtonPressed(Button.A, function () {
 
 素数を求めるプログラムを関数にしよう @showdialog
 
-![Let's Make a Function!](https://raw.githubusercontent.com/SKYTREE-1/isprime/main/images/img02.png)
+![Let's Make a Function!](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img02.png)
 
 
 
@@ -227,11 +227,11 @@ input.onButtonPressed(Button.A, function () {
 
 ``||function:関数||`` を開き、``||function:関数を作成する...||`` を押し、関数名 **isPrime** を入力します。
 
-![手順１](https://raw.githubusercontent.com/SKYTREE-1/isprime/main/images/img03.png)
+![手順１](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img03.png)
 
 数値を受け取って、それが素数かどうかを判定するようにしたいので、パラメーターを追加するの次の「電卓」のマークをクリックして数値を受け取れるようにします。
 
-![手順２](https://raw.githubusercontent.com/SKYTREE-1/isprime/main/images/img04.png)
+![手順２](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img04.png)
 
 できたら「完了」ボタンを押すと、関数 ``||function:isPrime||`` ができます。
 
