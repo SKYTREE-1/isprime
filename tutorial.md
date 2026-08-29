@@ -1,5 +1,4 @@
 # Let's find prime numbers!
-
 ## 素数をみつけよう @showdialog
 
 ![素数判定チュートリアル](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img01.png)
