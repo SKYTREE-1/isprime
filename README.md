@@ -1,26 +1,29 @@
-
 > このページを開く [https://skytree-1.github.io/isprime/](https://skytree-1.github.io/isprime/)
 
-## 素数判定プログラムのチュートリアル
+[チュートリアル全体を表示](https://skytree-1.github.io/isprime/tutorial.md)
 
-このリポジトリは、MakeCode で **チュートリアル** として読み込むとチュートリアルが実行できます。
+# 素数判定プログラム
 
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
+素数かどうかを判定するプログラムを作りながら、
+条件分岐や繰り返し、関数について学ぶチュートリアルです。
 
-* [チュートリアルを実行](https://makecode.microbit.org/#tutorial:github:SKYTREE-1/isprime/tutorial) チュートリアル
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/skytree-1/isprime** を検索してインポートします。
+## このチュートリアルで学ぶこと
 
-## このプロジェクトを編集します
+- 素数とは何か
+- 数値が素数かどうかを判定する方法
+- 繰り返し処理を使って調べる方法
+- 判定処理を関数にまとめる方法
 
-MakeCode でこのリポジトリを編集します。
+## チュートリアル
 
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/skytree-1/isprime** を貼り付けてインポートをクリックしてください
+詳しい手順は `tutorial.md` を参照してください。
 
-#### メタデータ (検索、レンダリングに使用)
+## 発展
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+- 2〜100までの素数を調べる
+- 素数をリストに入れて表示する
+
+## 実行
+
+* [チュートリアルを実行](https://makecode.microbit.org/#tutorial:github:SKYTREE-1/isprime/tutorial) 
+
