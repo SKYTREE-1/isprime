@@ -216,7 +216,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-素数を求めるプログラムを関数にしよう @showdialog
+## 素数を求めるプログラムを関数にしよう @showdialog
 
 ![Let's Make a Function!](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img02.png)
 
@@ -332,7 +332,7 @@ input.onButtonPressed(Button.A, function () {
 
 これが、アルゴリズムを工夫するということです。
 
-## Challenge
+## Challenge @showdialog
 
 ### 2～100の素数を見つけよう！
 
