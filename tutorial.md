@@ -4,7 +4,7 @@
 
 ![素数判定チュートリアル](https://raw.githubusercontent.com/SKYTREE-1/isprime/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img01.png)
 
-
+![素数判定チュートリアル2](https://skytree-1.github.io/isprime/images/img01.png)
 
 ## 素数かどうかを調べるアルゴリズム @showdialog
 
