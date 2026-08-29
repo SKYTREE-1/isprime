@@ -167,7 +167,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 
-### さらに効率よく  @showdialog
+## さらに効率よく  @showdialog
 
 ここまで、`i` を **2から `n-1` まで** 動かして、`n` が割り切れるかを一つずつチェックしてきました。
 
@@ -334,7 +334,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Challenge @showdialog
 
-### 2～100の素数を見つけよう！
+🔸 2～100の素数を見つけよう！
 
 ここまで作った `isPrime()` 関数を使って、
 
@@ -348,7 +348,7 @@ input.onButtonPressed(Button.A, function () {
 
 のようなリストを作り、素数を見つけるたびに追加していく。
 
-### ヒント
+【ヒント】
 
 - `2` から `100` まで、順番に調べる
 - `isPrime()` を使って、素数かどうかを判定する
@@ -358,7 +358,7 @@ input.onButtonPressed(Button.A, function () {
 **どんなプログラムになるかな？**
 
 
-## サンプルプログラム
+## サンプルプログラム @showdialog
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
