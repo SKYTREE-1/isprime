@@ -1,6 +1,6 @@
 > このページを開く [https://skytree-1.github.io/isprime/](https://skytree-1.github.io/isprime/)
 
-[チュートリアル全体を表示](https://skytree-1.github.io/isprime/tutorial.md)
+[チュートリアル全体を表示](https://skytree-1.github.io/isprime/tutorial)
 
 # 素数判定プログラム
 
