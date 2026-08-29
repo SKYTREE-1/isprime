@@ -8,7 +8,7 @@
 
 ## 素数をみつけよう @showdialog
 
-![Let's find prime numbers!](https://github.com/SKYTREE-1/isprime/blob/d0985b4fb80c0183711a9f5af08617a808fdad08/images/img01.png)
+![素数判定チュートリアル](https://github.com/SKYTREE-1/isprime/blob/ebf4051f39f117be6c49e27475d6c3be839e7fcc/images/img01.png)
 
 
 
