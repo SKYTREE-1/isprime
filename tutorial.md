@@ -18,6 +18,7 @@
   → 7は素数
 
 つまり、2以上の整数 `n` が素数かどうかを調べる方法の手順は次のように書けます。
+素数の判定では、変数 ``||variables: is_prime||`` を使い、n が素数の時１、素数でないときに 0 とすることにします。
 
 **手順**
 1.　n を素数と仮定する（is_prime == 1）。
@@ -57,7 +58,8 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 
-## STEP1-4 n > 1 のとき 
+## STEP1-4 素数の判定
+``||variables:n||`` が ``||variables:i||`` で割り切れるかどうかの判定をするので、
 ``||logic: 論理||``の``||logic: もし〜なら||``ブロックを``||loops:くりかえし||``の中に入れます。
 
 ```blocks
@@ -73,8 +75,9 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## STEP1-4 n > 1 のとき （つづき）
-``||logic: もし〜なら||``ブロックの条件に ``||math:n÷iの余り||`` = 0  という条件を加えて、このとき``||variables: is_prime を 0||``にします。
+## STEP1-4  素数の判定（つづき）
+``||variables:n||`` が ``||variables:i||`` で割り切れたら素数ではないので、
+``||logic: もし〜なら||`` に比べるブロックを追加して ``||math:n÷iの余り||`` = 0  という条件を設定して、このとき``||variables: is_prime||`` を 0にします。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -126,7 +129,7 @@ input.onButtonPressed(Button.A, function () {
 
 
 ## STEP1-9 実行
-ここまできたら、ダウンロードして micro:bit で動かしてみよう。できたら、 n の値をいろいろな値に変えて、試してみよう。
+ここまできたら、ダウンロードして micro:bit で動かしてみよう。できたら、 ``||variables:n||``  の値をいろいろな値に変えて、試してみよう。
 
 
 ```blocks
@@ -223,7 +226,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## 関数の作成 @showdialog
 
-``||function:関数||`` を開き、``||function:関数を作成する...||`` を押し、関数名 **isPrime** を入力します。
+``||functions:関数||`` を開き、``||functions:関数を作成する...||`` を押し、関数名 **isPrime** を入力します。
 
 ![手順１](https://skytree-1.github.io/isprime/images/img03.png)
 
@@ -231,7 +234,7 @@ input.onButtonPressed(Button.A, function () {
 
 ![手順２](https://skytree-1.github.io/isprime/images/img04.png)
 
-できたら「完了」ボタンを押すと、関数 ``||function:isPrime||`` ができます。
+できたら「完了」ボタンを押すと、関数 ``||functions:isPrime||`` ができます。
 
 ```blocks
 function isPrime (数値: number) {
@@ -242,7 +245,7 @@ function isPrime (数値: number) {
 次のステップで、関数 **isPrime** を作成しましょう。
 
 ## 2-1 関数の作成
-``||function:関数||`` を開き、``||function:関数を作成する...||`` を押し、関数名 **isPrime** を入力して、パラメーターを追加するの次の「電卓」のマークをクリックして「完了」ボタンを押します。
+``||functions:関数||`` を開き、``||functions:関数を作成する...||`` を押し、関数名 **isPrime** を入力して、パラメーターを追加するの次の「電卓」のマークをクリックして「完了」ボタンを押します。
 
 ```blocks
 function isPrime (数値: number) {
@@ -252,7 +255,7 @@ function isPrime (数値: number) {
 
 
 ## 2-2 素数かどうか判定する関数
-``||function:isPrime||``の中に、``||input:ボタンAが押されたとき||`` に入っているブロックのうち``||variables:変数 n を（）にする||``と``||basic:数を表示||``以外の全部を移します。
+``||functions:isPrime||``の中に、``||input:ボタンAが押されたとき||`` に入っているブロックのうち``||variables:変数 n を（）にする||``と``||basic:数を表示||``以外の全部を移します。
 
 
 ```blocks
@@ -274,7 +277,7 @@ function isPrime (数値: number) {
 ```
 
 ## 2-3 素数かどうか判定する関数（つづき）
-``||function:isPrime||`` の 関数名の横にある ``||variables: 数値||``を、すべての``||variables: n||`` の上にドラッグして``||variables: n||``を``||variables: 数値||``に変えます。
+``||functions:isPrime||`` の 関数名の横にある ``||variables: 数値||``を、すべての``||variables: n||`` の上にドラッグして``||variables: n||``を``||variables: 数値||``に変えます。
 このとき、いらないブロックは、左側のゴミ箱に捨ててください。
 
 
@@ -293,7 +296,7 @@ function isPrime (数値: number) {
 ```
 
 ## 2-4 素数かどうか判定する関数（つづき）
-``||function: isPrime||``の最終行に、``||function: 関数||``の``||function: 戻る||``ブロックを追加してして、空欄を ``||variables: is_prime||`` にして、結果を返すようにします。
+``||functions: isPrime||``の最終行に、``||functions: 関数||``の``||functions: 戻る||``ブロックを追加してして、空欄を ``||variables: is_prime||`` にして、結果を返すようにします。
 
 ```blocks
 function isPrime (数値: number) {
@@ -310,11 +313,11 @@ function isPrime (数値: number) {
 }
 ```
 ## 2-5 関数の呼び出し
-``||input:ボタンAが押されたとき||`` にある``||basic:数を表示||``ブロックの``||variables: is_prime||``を、``||function: 関数||``の``||function: 呼び出し is_prime ||`` に変更して、パラメーターに ``||variables:n||`` を入れます。
+``||input:ボタンAが押されたとき||`` にある``||basic:数を表示||``ブロックの``||variables: is_prime||``を、``||functions: 関数||``の``||functions: 呼び出し is_prime ||`` に変更して、パラメーターに ``||variables:n||`` を入れます。
 
 
 ```blocks
-input.onButtonPressed(Button.A, function () {
+    input.onButtonPressed(Button.A, function () {
     n = 7
     basic.showNumber(isPrime(n))
 })
