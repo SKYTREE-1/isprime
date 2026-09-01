@@ -226,7 +226,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## 関数の作成 @showdialog
 
-``||functions:関数||`` を開き、``||functions:関数を作成する...||`` を押し、関数名 **isPrime** を入力します。
+``||functions: 関数||`` を開き、``||functions: 関数を作成する...||`` を押し、関数名 **isPrime** を入力します。
 
 ![手順１](https://skytree-1.github.io/isprime/images/img03.png)
 
@@ -234,7 +234,7 @@ input.onButtonPressed(Button.A, function () {
 
 ![手順２](https://skytree-1.github.io/isprime/images/img04.png)
 
-できたら「完了」ボタンを押すと、関数 ``||functions:isPrime||`` ができます。
+できたら「完了」ボタンを押すと、関数 ``||functions: isPrime||`` ができます。
 
 ```blocks
 function isPrime (数値: number) {
@@ -245,7 +245,7 @@ function isPrime (数値: number) {
 次のステップで、関数 **isPrime** を作成しましょう。
 
 ## 2-1 関数の作成
-``||functions:関数||`` を開き、``||functions:関数を作成する...||`` を押し、関数名 **isPrime** を入力して、パラメーターを追加するの次の「電卓」のマークをクリックして「完了」ボタンを押します。
+``||functions: 関数||`` を開き、``||functions: 関数を作成する...||`` を押し、関数名 **isPrime** を入力して、パラメーターを追加するの次の「電卓」のマークをクリックして「完了」ボタンを押します。
 
 ```blocks
 function isPrime (数値: number) {
@@ -255,7 +255,7 @@ function isPrime (数値: number) {
 
 
 ## 2-2 素数かどうか判定する関数
-``||functions:isPrime||``の中に、``||input:ボタンAが押されたとき||`` に入っているブロックのうち``||variables:変数 n を（）にする||``と``||basic:数を表示||``以外の全部を移します。
+``||functions: isPrime||``の中に、``||input:ボタンAが押されたとき||`` に入っているブロックのうち``||variables:変数 n を（）にする||``と``||basic:数を表示||``以外の全部を移します。
 
 
 ```blocks
@@ -277,7 +277,7 @@ function isPrime (数値: number) {
 ```
 
 ## 2-3 素数かどうか判定する関数（つづき）
-``||functions:isPrime||`` の 関数名の横にある ``||variables: 数値||``を、すべての``||variables: n||`` の上にドラッグして``||variables: n||``を``||variables: 数値||``に変えます。
+``||functions: isPrime||`` の 関数名の横にある ``||variables: 数値||``を、すべての``||variables: n||`` の上にドラッグして``||variables: n||``を``||variables: 数値||``に変えます。
 このとき、いらないブロックは、左側のゴミ箱に捨ててください。
 
 
@@ -317,7 +317,9 @@ function isPrime (数値: number) {
 
 
 ```blocks
-    input.onButtonPressed(Button.A, function () {
+let n = 0
+
+input.onButtonPressed(Button.A, function () {
     n = 7
     basic.showNumber(isPrime(n))
 })
@@ -362,6 +364,8 @@ function isPrime (数値: number) {
 ## サンプルプログラム @showdialog
 
 ```blocks
+let n = 0
+
 input.onButtonPressed(Button.B, function () {
     let prime_list: number[] = []
     for (let カウンター = 0; カウンター <= 98; カウンター++) {
