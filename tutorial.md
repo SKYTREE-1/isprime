@@ -19,7 +19,7 @@
 
 つまり、2以上の整数 `n` が素数かどうかを調べる方法の手順は次のように書けます。
 
-** 手順**
+**手順**
 1.　n を素数と仮定する（is_prime == 1）。
 2.　`2` から `n - 1` までの整数 `i` について、次を繰り返す。
    - `n` が `i` で割り切れるか調べる。
@@ -43,7 +43,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## STEP1-3 くり返しの設定
-``||loop:もし <偽> ならくりかえし||`` を出して、  <偽> の部分に ``||logic: 論理||``にある「くらべるブロック」から ``||logic: ()<()||`` ブロックをセットして ``||logic: (i)<(n)||`` にします。
+``||loops:もし <偽> ならくりかえし||`` を出して、  <偽> の部分に ``||logic: 論理||``にある「くらべるブロック」から ``||logic: ()<()||`` ブロックをセットして ``||logic: (i)<(n)||`` にします。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -58,7 +58,7 @@ input.onButtonPressed(Button.A, function () {
 
 
 ## STEP1-4 n > 1 のとき 
-``||logic: 論理||``の``||logic: もし〜なら||``ブロックを``||loop:くりかえし||``の中に入れます。
+``||logic: 論理||``の``||logic: もし〜なら||``ブロックを``||loops:くりかえし||``の中に入れます。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -90,7 +90,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## STEP1-7 i をひとつ増やす
-``||loop: くりかえし||``ブロックの一番下に ``||variables: 変数||``から``||variables: 変数iを1増やす||`` をセットします。
+``||loops: くりかえし||``ブロックの一番下に ``||variables: 変数||``から``||variables: 変数iを1増やす||`` をセットします。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -107,7 +107,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## STEP1-8 結果の表示
-``||loop: くりかえし||``ブロックの下に ``||basic: 基本||``から``||basic: 数を表示||`` を使って、``||variables:変数||``の``||variables:is_prime||``を表示します。
+``||loops: くりかえし||``ブロックの下に ``||basic: 基本||``から``||basic: 数を表示||`` を使って、``||variables:変数||``の``||variables:is_prime||``を表示します。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -146,7 +146,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## STEP1-10 ちょっと改善
 変数 ``||variables: is_prime||`` は 0 になると、その時点で素数ではないことが確定します。その後の判定は無駄になります。
-``||loop:ループ||`` にある``||loop:くりかえしを終わる||``ブロックを使って``||variables:is_prime||``が0になったら、ループを抜けるように変更してください。
+``||loops:ループ||`` にある``||loops:くりかえしを終わる||``ブロックを使って``||variables:is_prime||``が0になったら、ループを抜けるように変更してください。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -195,7 +195,7 @@ input.onButtonPressed(Button.A, function () {
 
 
 ## STEP1-11 さらに効率よく
-``||loop:くりかえし||`` ブロックの条件 ``||logic : i <  n||`` の不等号と、右辺を変更して√n 以下になるように変更してください。
+``||loops:くりかえし||`` ブロックの条件 ``||logic : i <  n||`` の不等号と、右辺を変更して√n 以下になるように変更してください。
 できたらダウンロードして実行してみてください。
 
 ```blocks
