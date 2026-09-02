@@ -1,4 +1,3 @@
-### @explicitHints true
 ### @showtoolbox
 
 # Let's find prime numbers!
