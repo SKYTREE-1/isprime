@@ -1,5 +1,3 @@
-### @showtoolbox
-
 # Let's find prime numbers!
 
 ## 素数をみつけよう @showdialog
