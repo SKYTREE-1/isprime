@@ -237,7 +237,6 @@ input.onButtonPressed(Button.A, function () {
 できたら「完了」ボタンを押すと、関数 ``||functions: isPrime||`` ができます。
 
 ```blocks
-// @showtoolbox ["functions"]
 
 function isPrime (数値: number) {
 	
@@ -325,6 +324,20 @@ input.onButtonPressed(Button.A, function () {
     n = 7
     basic.showNumber(isPrime(n))
 })
+
+function isPrime (数値: number) {
+    is_prime = 1
+    i = 2
+    while (i <= Math.sqrt(数値)) {
+        if (数値 % i == 0) {
+            is_prime = 0
+            break;
+        }
+        i += 1
+    }
+    return is_prime
+}
+```
 ```
 
 ## Finish! @showdialog
@@ -380,4 +393,17 @@ input.onButtonPressed(Button.B, function () {
         basic.showNumber(prime_list[カウンター])
     }
 })
+
+function isPrime (数値: number) {
+    is_prime = 1
+    i = 2
+    while (i <= Math.sqrt(数値)) {
+        if (数値 % i == 0) {
+            is_prime = 0
+            break;
+        }
+        i += 1
+    }
+    return is_prime
+}
 ```
