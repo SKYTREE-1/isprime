@@ -237,6 +237,8 @@ input.onButtonPressed(Button.A, function () {
 できたら「完了」ボタンを押すと、関数 ``||functions: isPrime||`` ができます。
 
 ```blocks
+// @showtoolbox ["functions"]
+
 function isPrime (数値: number) {
 	
 }
